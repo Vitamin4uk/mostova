@@ -4,7 +4,7 @@
      height: 100vh;
      margin: 0;
      font-family: sans-serif;
-     background-image: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+     background-image: url(../img/layout.jpg);
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
