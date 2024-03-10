@@ -1,4 +1,11 @@
-:root {}
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --accent-color: #ffff00;
+  --math-color: #0000ff;
+  --bg-color: #333;
+
+}
 
 body {
   font-family: sans-serif;
@@ -8,13 +15,9 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
   padding: 20px;
-}
-
-h1 {
-  font-size: 24px;
 }
 
 nav {
@@ -23,7 +26,7 @@ nav {
 }
 
 nav a {
-  color: blue;
+  color: var(--math-color);
   text-decoration: none;
   padding: 10px 20px;
   font-size: 16px;
@@ -31,8 +34,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: yellow;
-  color: blue;
+  background-color: var(--accent-color);
+  color: var(--math-color);
   font-size: 20px;
   font-weight: 700;
 }
@@ -43,7 +46,7 @@ main {
 }
 
 section {
-  padding: 20px;
+  padding: 40px;
 }
 
 h2 {
@@ -65,26 +68,8 @@ li {
 }
 
 footer {
-  background-color: #333333;
-  color: #ffffff;
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
   padding: 20px;
   text-align: center;
-}
-
-/* Колірна гама */
-
-.primary-color {
-  color: #000000;
-}
-
-.secondary-color {
-  color: #ffffff;
-}
-
-.accent-color {
-  color: #ff0000;
-}
-
-.math-color {
-  color: #0000ff;
 }
